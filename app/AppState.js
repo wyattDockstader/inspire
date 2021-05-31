@@ -1,6 +1,6 @@
 import { Background } from "./Models/BackgroundModel.js"
 import { Quote } from "./Models/QuoteModel.js"
-import { ToDo } from "./Models/ToDOModel.js"
+import { ToDo } from "./Models/ToDoModel.js"
 import { Weather } from "./Models/WeatherModel.js"
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
