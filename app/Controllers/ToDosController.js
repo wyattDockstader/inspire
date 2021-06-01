@@ -49,6 +49,7 @@ export class ToDosController {
             description: form.toDo.value
         }
         sandBoxService.addToDo(newToDo)
+        form.reset()
     }
     deleteToDo(toDoId) {
         console.log("deleted a to do!")
